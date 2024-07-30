@@ -1,0 +1,25 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+
+    // See J.Price page 197. This launch.json file is configured to use the Terminal of 
+    // Visual Studio Code to input data to the console application.
+    // J. Price recommends this, because he tells that user input via Debug Console does not work.
+    // But Debug Console worked (on my machine) at 30.7.2024. Perhaps this is a new feature of
+    // Visual Studio Code.
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": ".NET Core Launch (console)",
+            "type": "coreclr",
+            "request": "launch",
+            //"preLaunchTask": "build",
+            "program": "${workspaceFolder}/DebugWithConsoleInput/bin/Debug/net8.0/DebugWithConsoleInput.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}",
+            "stopAtEntry": false,
+            "console": "integratedTerminal"
+        }
+    ]
+}
