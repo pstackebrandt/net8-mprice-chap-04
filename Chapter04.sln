@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Debugging", "Debugging\Debu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DebugWithConsoleInput", "DebugWithConsoleInput\DebugWithConsoleInput.csproj", "{DC12D06E-2DFE-459B-82D0-CBDD8E43E624}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HotReloading", "HotReloading\HotReloading.csproj", "{4E166FB8-016F-4607-95A4-2FDA7215ACC9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{DC12D06E-2DFE-459B-82D0-CBDD8E43E624}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DC12D06E-2DFE-459B-82D0-CBDD8E43E624}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DC12D06E-2DFE-459B-82D0-CBDD8E43E624}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E166FB8-016F-4607-95A4-2FDA7215ACC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E166FB8-016F-4607-95A4-2FDA7215ACC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E166FB8-016F-4607-95A4-2FDA7215ACC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E166FB8-016F-4607-95A4-2FDA7215ACC9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
